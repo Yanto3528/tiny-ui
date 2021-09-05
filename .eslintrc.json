@@ -33,6 +33,7 @@
     "react/button-has-type": "off",
     "no-param-reassign": "off"
   },
+  "ignorePatterns": ["dist", "node_modules"],
   "settings": {
     "import/resolver": {
       "node": {
