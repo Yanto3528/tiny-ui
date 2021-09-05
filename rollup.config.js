@@ -26,9 +26,6 @@ const config = defineConfig({
       sourcemap: true,
     },
   ],
-  // treeshake: {
-  //   annotations: false,
-  // },
   external: [/@babel\/runtime/, 'react'],
   plugins: [
     peerDepsExternalPlugin(),
